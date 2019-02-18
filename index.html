@@ -1,0 +1,410 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>fashion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+      />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+      />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+      />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+      ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+      ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+      ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/styles.css"
+      />
+    <script src="scripts/scripts.js"></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg mb-4 top-bar navbar-static-top sps sps--abv"
+      >
+      <div class="container">
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse1"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          >
+        <span class="navbar-toggler-icon"></span>        </button>
+        <a class="navbar-brand mx-auto" href="#"><img class="logo" src="./images/logo.png" alt=""></a>
+        <div class="collapse navbar-collapse" id="navbarCollapse1">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+                >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cart"><img src="./images/shop.png" alt=""></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Landing Page
+      ================================================== -->
+    <div class="swiper-container main-slider">
+      <div class="swiper-wrapper">
+        <div
+          class="swiper-slide" id="swipe"
+          >
+          <p><span class="mantra">Our cloathing, your comfort</span> <br>
+            <small class="sub-mantra">We understand that you need to look good and feel great. <br>It all starts with what you are wearing. </small> 
+          </p>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- banner ================================================== -->
+    <div class="container-fluid" id="products">
+      <div class="banner">
+        <div class="row justify-content-md-center">
+          <div class="col-sm-2 col-xs-12"></div>
+          <div class="col-sm-1 col-xs-12 type"><input type="checkbox" />Men</div>
+          <div class="col-sm-1 col-xs-12 type"><input type="checkbox" />Women</div>
+          <div class="col-sm-1 col-xs-12 type"><input type="checkbox" />Children</div>
+          <div class="col-sm-7 col-xs-12  pull-right">
+            <input type="button" class="button typex" value="See All Products" />
+          </div>
+        </div>
+      </div>
+      <div class="row blog">
+        <div class="col-md-12">
+          <div class="wrapper">
+            <p>Men</p>
+            <div class="line"></div>
+          </div>
+          <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+            <div class="controls float-right hidden-xs">
+              <a
+                class="left fa fa-chevron-left"
+                data-target="#blogCarousel"
+                href="#carousel-example"
+                data-slide="prev"
+                ></a
+                ><a
+                class="right fa fa-chevron-right "
+                href="#carousel-example"
+                data-target="#blogCarousel"
+                data-slide="next"
+                ></a>
+            </div>
+            <!-- Carousel items -->
+            <div class="carousel-inner men">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div id="item">
+                      <img id="product"
+                        src="./images/tshirt.png"
+                        alt="t shirt"
+                        style="max-width:100%;"
+                        />
+                      <div class="bottom-left">TSHIRT</div>
+                      <div class="top-left">Size<i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                      <div class="top-right"><i class="fa fa-circle" id="blue" aria-hidden="true"></i><i class="fa fa-circle" id="green" aria-hidden="true"></i><i class="fa fa-circle" id="black" aria-hidden="true"></i> </div>
+                      <div class="bottom-right">5,00 &euro;</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div id="item">
+                      <img id="product"
+                        src="./images/pants.png"
+                        alt="Image"
+                        style="max-width:100%;"
+                        />
+                      <div class="bottom-left">PANTS FORCLAZ</div>
+                      <div class="top-left">Size <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                      <div class="top-right"><i class="fa fa-circle" id="blue" aria-hidden="true"></i><i class="fa fa-circle" id="green" aria-hidden="true"></i><i class="fa fa-circle" id="black" aria-hidden="true"></i> </div>
+                      <div class="bottom-right">30,00 &euro;</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4" >
+                    <div id="item">
+                      <img id="product"
+                        src="./images/backpack.png"
+                        alt="Image"
+                        style="max-width:100%;"
+                        />
+                      <div class="bottom-left">BACKPACK</div>
+                      <div class="top-left">Size<i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                      <div class="top-right"><i class="fa fa-circle" id="blue" aria-hidden="true"></i><i class="fa fa-circle" id="green" aria-hidden="true"></i><i class="fa fa-circle" id="black" aria-hidden="true"></i> </div>
+                      <div class="bottom-right">60,00 &euro;</div>
+                    </div>
+                  </div>
+                </div>
+                <!--.row-->
+              </div>
+              <!--.item-->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div id="item">
+                      <img id="product"
+                        src="./images/tshirt.png"
+                        alt="Image"
+                        style="max-width:100%;"
+                        />
+                      <div class="bottom-left">TSHIRT</div>
+                      <div class="top-left">Size <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                      <div class="top-right"><i class="fa fa-circle" id="blue" aria-hidden="true"></i><i class="fa fa-circle" id="green" aria-hidden="true"></i><i class="fa fa-circle" id="black" aria-hidden="true"></i> </div>
+                      <div class="bottom-right">5,00 &euro;</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div id="item">
+                      <img id="product"
+                        src="./images/pants.png"
+                        alt="Image"
+                        style="max-width:100%;"
+                        />
+                      <div class="bottom-left">PANTS FORCLAZ </div>
+                      <div class="top-left">Size<i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                      <div class="top-right"><i class="fa fa-circle" id="blue" aria-hidden="true"></i><i class="fa fa-circle" id="green" aria-hidden="true"></i><i class="fa fa-circle" id="black" aria-hidden="true"></i> </div>
+                      <div class="bottom-right">30,00 &euro;</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div id="item">
+                      <img id="product"
+                        src="./images/backpack.png"
+                        alt="Image"
+                        style="max-width:100%;"
+                        />
+                      <div class="bottom-left">BACKPACK</div>
+                      <div class="top-left">Size<i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                      <div class="top-right"><i class="fa fa-circle" id="blue" aria-hidden="true"></i><i class="fa fa-circle" id="green" aria-hidden="true"></i><i class="fa fa-circle" id="black" aria-hidden="true"></i> </div>
+                      <div class="bottom-right">60,00 &euro;</div>
+                    </div>
+                  </div>
+                </div>
+                <!--.row-->
+              </div>
+              <!--.item-->
+            </div>
+            <!--.carousel-inner-->
+            <!-- women -->
+          </div>
+          <!--.Carousel-->
+        </div>
+      </div>
+      <div class="row blog women">
+        <div class="col-md-12">
+          <div class="wrapper">
+            <div class="line"></div>
+            <p>Women</p>
+          </div>
+          <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+            <div class="controls float-left hidden-xs">
+              <a
+                class="left fa fa-chevron-left"
+                data-target="#blogCarousel"
+                href="#carousel-example"
+                data-slide="prev"
+                ></a
+                ><a
+                class="right fa fa-chevron-right "
+                href="#carousel-example"
+                data-target="#blogCarousel"
+                data-slide="next"
+                ></a>
+            </div>
+            <!-- Carousel items -->
+            <div class="carousel-inner men">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4 col">
+                    <div id="item">
+                      <a href="#">
+                      <img id="product"
+                        src="./images/giacket.png"
+                        alt="Image"
+                        style="max-width:100%;"
+                        />
+                      </a>
+                      <div class="bottom-left">GIACKET</div>
+                      <div class="top-left">Size<i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                      <div class="top-right"><i class="fa fa-circle" id="blue" aria-hidden="true"></i><i class="fa fa-circle" id="green" aria-hidden="true"></i><i class="fa fa-circle" id="black" aria-hidden="true"></i> </div>
+                      <div class="bottom-right">60,00 &euro;</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4  col">
+                    <div id="item">
+                      <a href="#">
+                      <img id="product"
+                        src="./images/trekkingshoes.png"
+                        alt="Image"
+                        style="max-width:100%;"
+                        />
+                      </a>
+                      <div class="bottom-left">TREKKINGSHOES</div>
+                      <div class="top-left">Size<i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                      <div class="top-right"><i class="fa fa-circle" id="blue" aria-hidden="true"></i><i class="fa fa-circle" id="green" aria-hidden="true"></i><i class="fa fa-circle" id="black" aria-hidden="true"></i> </div>
+                      <div class="bottom-right">60,00 &euro;</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4  col">
+                    <div id="item">
+                      <a href="#">
+                      <img id="product"
+                        src="./images/tshirt_ladies.png"
+                        alt="Image"
+                        style="max-width:100%;"
+                        />
+                      </a>
+                      <div class="bottom-left">T-SHIRT</div>
+                      <div class="top-left">Size<i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                      <div class="top-right"><i class="fa fa-circle" id="blue" aria-hidden="true"></i><i class="fa fa-circle" id="green" aria-hidden="true"></i><i class="fa fa-circle" id="black" aria-hidden="true"></i> </div>
+                      <div class="bottom-right">60,00 &euro;</div>
+                    </div>
+                  </div>
+                </div>
+                <!--.row-->
+              </div>
+              <!--.item-->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4 col">
+                    <div id="item">
+                      <a href="#">
+                      <img id="product"
+                        src="./images/giacket.png"
+                        alt="Image"
+                        style="max-width:100%;"
+                        />
+                      </a>
+                      <div class="bottom-left">GIACKET</div>
+                      <div class="top-left">Size<i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                      <div class="top-right"><i class="fa fa-circle" id="blue" aria-hidden="true"></i><i class="fa fa-circle" id="green" aria-hidden="true"></i><i class="fa fa-circle" id="black" aria-hidden="true"></i> </div>
+                      <div class="bottom-right">60,00 &euro;</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col">
+                    <div id="item">
+                      <a href="#">
+                      <img id="product"
+                        src="./images/trekkingshoes.png"
+                        alt="Image"
+                        style="max-width:100%;"
+                        />
+                      </a>
+                      <div class="bottom-left">TREKKINGSHOES</div>
+                      <div class="top-left">Size<i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                      <div class="top-right"><i class="fa fa-circle" id="blue" aria-hidden="true"></i><i class="fa fa-circle" id="green" aria-hidden="true"></i><i class="fa fa-circle" id="black" aria-hidden="true"></i> </div>
+                      <div class="bottom-right">60,00 &euro;</div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col">
+                    <div id="item">
+                      <a href="#">
+                      <img id="product"
+                        src="./images/tshirt_ladies.png"
+                        alt="Image"
+                        style="max-width:100%;"
+                        />
+                      </a>
+                      <div class="bottom-left">T-SHIRT</div>
+                      <div class="top-left">Size<i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                      <div class="top-right"><i class="fa fa-circle" id="blue" aria-hidden="true"></i><i class="fa fa-circle" id="green" aria-hidden="true"></i><i class="fa fa-circle" id="black" aria-hidden="true"></i> </div>
+                      <div class="bottom-right">60,00 &euro;</div>
+                    </div>
+                  </div>
+                </div>
+                <!--.row-->
+              </div>
+              <!--.item-->
+            </div>
+            <!--.carousel-inner-->
+            <!-- women -->
+          </div>
+          <!--.Carousel-->
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid aboutus">
+      <fieldset>
+        <div id="desc">
+          <legend>ABOUT US</legend>
+          <div id="txt">
+            <p>This is where high fashioned clothing is <br> designed crafted from the heart by <br> an amazing team of craftsmen and <br> designers who understand what fashion is</p>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    <div class="info-tweet">
+      <div class="content_offer">
+        <p class=""><img src="./images/twitter_bird.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"SALE: Buy Anything for 45% off. Use the promo CODE YOLOM45 when you buy items".</p>
+      </div>
+    </div>
+    <div class="footer container-fluid">
+      <div class="row">
+        <div class="col-md-4" id="info-tag">
+          <p id="company"><img src="./images/logo.png" alt=""></p>
+          <p>We are YOLOMY- we understand <br> Fashion and style we craft our <br>
+            products with love and diligence.
+          </p>
+        </div>
+        <div class="col-md-3" id="social-icons">
+          <h3>We are social</h3>
+          <div>
+            <p><img src="./images/g_plus.png" alt=""> <img src="./images/facebook.png" alt=""><img src="./images/you_tube.png" alt=""> <img src="./images/stumble_upon.png" alt=""> <br><br>
+              <img src="./images/skype.png" alt=""> <img src="./images/flickr.png" alt=""><img src="./images/twitter.png" alt=""><img src="./images/pinterest.png" alt="">
+          </div>
+          </p>
+        </div>
+        <div class="col-md-5" id="links">
+          <div id="shortcuts">
+            <p >Credit | privacy | about | contact</p>
+          </div>
+          <p id="sell">YOLOMY: We Mean Fashion</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <div id="copyright">
+            <p > Copyright 2015 YOLOMY INC</p>
+          </div>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+  </body>
+</html>
