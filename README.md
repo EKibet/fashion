@@ -15,7 +15,7 @@ A website build from this mock up image
 
 ### Usage
 
-*** To view the app.Visit -> [remoteworkassessment](https://neighbourhoodlyt.herokuapp.com/)
+*** To view the app.Visit -> [remoteworkassessment](https://ekibet.github.io/fashion/)
 
 1. Clone this repo: git clone https://github.com/EKibet/fashion.git.
 2. The repo comes in a zipped or compressed format. Extract to your prefered location and open it.
