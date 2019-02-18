@@ -1,7 +1,8 @@
 # Remote Work Assessment
 
 
-A website build from this mock up image
+A website build from this mock up image ![alt Preview](https://github.com/EKibet/fashion/blob/master/images/hero.jpg)
+
 ## Versioning
 
  RemoteWorkAssessment-V1.0 
